@@ -2376,19 +2376,7 @@ input, select, textarea {
 						text-decoration: none;
 					}
 
-						#header nav ul li.submenu > a:before {
-							-moz-osx-font-smoothing: grayscale;
-							-webkit-font-smoothing: antialiased;
-							display: inline-block;
-							font-style: normal;
-							font-variant: normal;
-							text-rendering: auto;
-							line-height: 1;
-							text-transform: none !important;
-                            font-family: 'Chango', cursive;
-                            font-family: 'Lato', sans-serif;
-                            font-family: 'Montserrat', sans-serif;
-							font-weight: 900;
+
 						}
 
 						#header nav ul li.submenu > a:before {
