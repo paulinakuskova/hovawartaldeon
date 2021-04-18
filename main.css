@@ -2206,7 +2206,6 @@ input, select, textarea {
 			min-width: 14em;
 			padding: 0.5em 0;
 		}
-
 /* Wrapper */
 
 	.wrapper {
@@ -3338,3 +3337,36 @@ input, select, textarea {
 			}
 
 	}
+
+#contact-status {
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+#contact-status.success {
+    background-color:rgb(211, 250, 153) ;
+    animation: status 4s ease forwards;
+}
+#contact-status.error {
+    background-color:rgb(250, 129, 92) ;
+    color: white;
+    animation: status 4s ease forwards;
+}
+
+@keyframes status {
+    0%{
+        opacity: 1;
+        pointer-events: all;
+    }
+    90%{
+        opacity: 1;
+        pointer-events: all;
+    }
+    100%{
+        opacity: 0;
+        pointer-events: none;
+    }
+}
