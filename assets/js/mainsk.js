@@ -107,12 +107,12 @@ window.addEventListener("DOMContentLoaded", function () {
   function success() {
     form.reset();
     status.classList.add("success");
-    status.innerHTML = "Thanks!";
+    status.innerHTML = "Ďakujeme za správu!";
   }
 
   function error() {
     status.classList.add("error");
-    status.innerHTML = "Oops! There was a problem.";
+    status.innerHTML = "Vyskytla sa chyba";
   }
 
   // handle the form submission event
